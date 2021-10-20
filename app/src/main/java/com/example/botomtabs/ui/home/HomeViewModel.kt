@@ -8,7 +8,7 @@ import com.example.botomtabs.R
 class HomeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = ""
     }
         private val _dado = MutableLiveData<Array<Int>>().apply {
             value = arrayOf(
